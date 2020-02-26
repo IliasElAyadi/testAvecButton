@@ -196,6 +196,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   SelectionVisualization: {fileID: 1674464896453232}
+  btnSupp: 0
 --- !u!114 &114579463648431760
 MonoBehaviour:
   m_ObjectHideFlags: 1

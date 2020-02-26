@@ -58,6 +58,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         }
 
         int index;
+        
       
         public void SetIndex(int i)
         {         
@@ -126,7 +127,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
                     var gameObject = Instantiate(PawnPrefab[index], hit.Pose.position, hit.Pose.rotation);
 
                     // Instantiate manipulator.
-                    var manipulator = gameObject;
+                   var manipulator = gameObject;
                     if (index == 0)
                     {
                          manipulator =
@@ -155,6 +156,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
 
                     // Select the placed object.
                     manipulator.GetComponent<Manipulator>().Select();
+                
                 }
             }
 

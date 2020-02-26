@@ -1,22 +1,4 @@
-//-----------------------------------------------------------------------
-// <copyright file="SelectionManipulator.cs" company="Google">
-//
-// Copyright 2018 Google LLC. All Rights Reserved.
-//
-// Licensed under the Apache License, Version 2.0 (the "License");
-// you may not use this file except in compliance with the License.
-// You may obtain a copy of the License at
-//
-// http://www.apache.org/licenses/LICENSE-2.0
-//
-// Unless required by applicable law or agreed to in writing, software
-// distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
-// limitations under the License.
-//
-// </copyright>
-//-----------------------------------------------------------------------
+
 
 namespace GoogleARCore.Examples.ObjectManipulation
 {
@@ -27,12 +9,16 @@ namespace GoogleARCore.Examples.ObjectManipulation
     /// </summary>
     public class SelectionManipulator : Manipulator
     {
+        
+        
         /// <summary>
         /// The visualization game object that will become active when the object is selected.
         /// </summary>
         public GameObject SelectionVisualization;
 
         private float m_ScaledElevation;
+
+       
 
         /// <summary>
         /// Should be called when the object elevation changes, to make sure that the Selection
@@ -65,6 +51,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         /// </summary>
         protected override void Update()
         {
+           
             base.Update();
             if (transform.hasChanged)
             {
@@ -82,13 +69,18 @@ namespace GoogleARCore.Examples.ObjectManipulation
         {
             return true;
         }
-
         /// <summary>
         /// Function called when the manipulation is ended.
         /// </summary>
-        /// <param name="gesture">The current gesture.</param>
+        /// <param name="gesture">The current gesture.</param> 
+
+     
+
+
         protected override void OnEndManipulation(TapGesture gesture)
         {
+          
+
             if (gesture.WasCancelled)
             {
                 return;
@@ -100,10 +92,15 @@ namespace GoogleARCore.Examples.ObjectManipulation
             }
 
             GameObject target = gesture.TargetObject;
+           
             if (target == gameObject)
             {
                 Select();
+                Destroy(gameObject);
+              
             }
+
+           
 
             // Raycast against the location the player touched to search for planes.
             TrackableHit hit;
@@ -123,11 +120,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         {
             SelectionVisualization.SetActive(true);
         }
-
-        public void deleteObj()
-        {
-            Destroy(gameObject);
-        }
+     
         /// <summary>
         /// Function called when this game object is deselected if it was the Selected Object.
         /// </summary>
