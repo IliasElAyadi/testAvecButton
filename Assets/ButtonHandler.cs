@@ -2,14 +2,17 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class ButtonHandler : MonoBehaviour {
 
 	GameObject pwn;
+	GameObject btn;
 	public void ChangeObjectTypeCercleRed()
 	{
 		pwn = GameObject.Find("Pawn Generator");
 		pwn.GetComponent<PawnManipulator>().SetIndex(0);
+
 		Debug.Log("AAPOKOPKOKPKPOKPOKPKO");
 
 	}
