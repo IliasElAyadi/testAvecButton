@@ -39,4 +39,20 @@ public class ButtonHandler : MonoBehaviour {
 
 	}
 
+	public void ChangeObjectTypeToArrowOut()
+	{
+		pwn = GameObject.Find("Pawn Generator");
+		pwn.GetComponent<PawnManipulator>().SetIndex(4);
+		Debug.Log("EEPOKOPKOKPKPOKPOKPKO");
+
+	}
+
+	public void ChangeObjectTypeToArrowIn()
+	{
+		pwn = GameObject.Find("Pawn Generator");
+		pwn.GetComponent<PawnManipulator>().SetIndex(5);
+		Debug.Log("FFPOKOPKOKPKPOKPOKPKO");
+
+	}
+
 }

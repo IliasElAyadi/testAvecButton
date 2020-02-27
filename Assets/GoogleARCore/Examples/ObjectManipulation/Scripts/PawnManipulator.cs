@@ -46,6 +46,8 @@ namespace GoogleARCore.Examples.ObjectManipulation
         public GameObject CercleGreen;
         public GameObject CercleBlue;
         public GameObject Arrow;
+        public GameObject ArrowIn;
+        public GameObject ArrowOut;
 
 
         public void RemplissageList()
@@ -55,6 +57,8 @@ namespace GoogleARCore.Examples.ObjectManipulation
             PawnPrefab.Add(CercleGreen);
             PawnPrefab.Add(CercleBlue);
             PawnPrefab.Add(Arrow);
+            PawnPrefab.Add(ArrowIn);
+            PawnPrefab.Add(ArrowOut);
 
             //PawnPrefab.Add(GameObject.Find("Arrow"));
         }
