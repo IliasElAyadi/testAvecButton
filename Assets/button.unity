@@ -236,7 +236,7 @@ MonoBehaviour:
   m_CellSize: {x: 288, y: 100}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
-  m_ConstraintCount: 2
+  m_ConstraintCount: 1
 --- !u!1 &280365114
 GameObject:
   m_ObjectHideFlags: 0
@@ -262,7 +262,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 280365114}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 441}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 958131383}
@@ -426,7 +426,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Fl\xE8che (-><-)"
+  m_Text: "Fl\xE8che (<>)"
 --- !u!222 &530006132
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -806,7 +806,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 668440038}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 441}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 2018257723}
@@ -1274,7 +1274,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Fl\xE8che (<->)"
+  m_Text: "Fl\xE8che (><)"
 --- !u!222 &1232845761
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1410,7 +1410,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: "Fl\xE8che (->)"
+  m_Text: "Fl\xE8che (>)"
 --- !u!222 &1315575576
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1543,7 +1543,7 @@ MonoBehaviour:
   CercleGreen: {fileID: 1175774839067288, guid: 60334bb9d0e78c643bf1d9bd64b6bbf9,
     type: 2}
   CercleBlue: {fileID: 1895197598998172, guid: 17ad4a21ab279f3498f6650ed26c54b1, type: 2}
-  Arrow: {fileID: 1747712211551432, guid: a0aa2400f3e79804e8445333f2f91841, type: 2}
+  Arrow: {fileID: 1630716595967920, guid: 46529513c104bf646b7bb36e07184411, type: 2}
   ArrowIn: {fileID: 1217683389854354, guid: 80c88fbd633baf644ab717e010380ed7, type: 2}
   ArrowOut: {fileID: 1747712211551432, guid: a0aa2400f3e79804e8445333f2f91841, type: 2}
   ManipulatorPrefab: {fileID: 1122865395318488, guid: 24556cd4924884d9aaa3d80135c8021d,
@@ -1879,7 +1879,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2084222936}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 441}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1315575574}
