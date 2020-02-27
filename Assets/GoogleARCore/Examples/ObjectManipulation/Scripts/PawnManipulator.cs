@@ -44,6 +44,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
         public List<GameObject> PawnPrefab;
         public GameObject CercleRed;
         public GameObject CercleGreen;
+        public GameObject CercleBlue;
         public GameObject Arrow;
 
 
@@ -52,6 +53,7 @@ namespace GoogleARCore.Examples.ObjectManipulation
             // PawnPrefab.RemoveRange(0, 3);
             PawnPrefab.Add(CercleRed);
             PawnPrefab.Add(CercleGreen);
+            PawnPrefab.Add(CercleBlue);
             PawnPrefab.Add(Arrow);
 
             //PawnPrefab.Add(GameObject.Find("Arrow"));
