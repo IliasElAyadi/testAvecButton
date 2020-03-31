@@ -12,15 +12,11 @@ public class ButtonHandler : MonoBehaviour {
 	{
 		pwn = GameObject.Find("Pawn Generator");
 		pwn.GetComponent<PawnManipulator>().SetIndex(0);
-
-		Debug.Log("AAPOKOPKOKPKPOKPOKPKO");
-
 	}
 	public void ChangeObjectTsypeToCercleGreen()
 	{
 		pwn = GameObject.Find("Pawn Generator");
 		pwn.GetComponent<PawnManipulator>().SetIndex(1);
-		Debug.Log("BBPOKOPKOKPKPOKPOKPKO");
 
 	}
 
@@ -28,14 +24,12 @@ public class ButtonHandler : MonoBehaviour {
 	{
 		pwn = GameObject.Find("Pawn Generator");
 		pwn.GetComponent<PawnManipulator>().SetIndex(2);
-		Debug.Log("CCPOKOPKOKPKPOKPOKPKO");
 
 	}
 	public void ChangeObjectTypeToArrow()
 	{
 		pwn = GameObject.Find("Pawn Generator");
 		pwn.GetComponent<PawnManipulator>().SetIndex(3);
-		Debug.Log("DDPOKOPKOKPKPOKPOKPKO");
 
 	}
 
@@ -43,7 +37,6 @@ public class ButtonHandler : MonoBehaviour {
 	{
 		pwn = GameObject.Find("Pawn Generator");
 		pwn.GetComponent<PawnManipulator>().SetIndex(4);
-		Debug.Log("EEPOKOPKOKPKPOKPOKPKO");
 
 	}
 
@@ -51,7 +44,6 @@ public class ButtonHandler : MonoBehaviour {
 	{
 		pwn = GameObject.Find("Pawn Generator");
 		pwn.GetComponent<PawnManipulator>().SetIndex(5);
-		Debug.Log("FFPOKOPKOKPKPOKPOKPKO");
 
 	}
 
